@@ -38,11 +38,12 @@ respectively.
 
 """
 
+
 # import the m5 (gem5) library created when gem5 is built
 import m5
 
 # import all of the SimObjects
-from m5.objects import *
+from m5.objects import * 
 
 # create the system we are going to simulate
 system = System()
